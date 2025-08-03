@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drummer Manager Game - How to Play</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto py-8">
+        <!-- Main Title -->
+        <h1 class="dm-sans text-4xl sm:text-5xl font-bold text-center mb-10 tracking-wide neon-text">
+            HOW TO PLAY
+        </h1>
+
+        <!-- Tabbed Navigation -->
+        <div class="flex justify-center space-x-4 sm:space-x-8 mb-8 border-b border-neutral-700">
+            <button class="tab-button dm-sans text-lg sm:text-xl font-bold p-2 active" data-tab="faq">FAQ</button>
+            <button class="tab-button dm-sans text-lg sm:text-xl font-bold p-2" data-tab="missions">MISSIONS</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="faq" class="tab-content">
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700 hover:border-cyan-400 transition-all duration-300">
+                    <h3 class="dm-sans text-xl font-bold text-cyan-400 mb-2">What is the Drummer Manager Game?</h3>
+                    <p class="roboto text-neutral-300">It's a community-driven, live-streaming experience where you help manage the drummer "21" through suggestions and support. Your participation is key to the story!</p>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700 hover:border-cyan-400 transition-all duration-300">
+                    <h3 class="dm-sans text-xl font-bold text-cyan-400 mb-2">What are "NUMBERS" and how do I get them?</h3>
+                    <p class="roboto text-neutral-300">"NUMBERS" are our loyalty points. You can earn them by watching the stream, participating in chat, and achieving community goals. They are used to influence in-game decisions and objectives.</p>
+                </div>
+                <!-- FAQ Item 3 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700 hover:border-cyan-400 transition-all duration-300">
+                    <h3 class="dm-sans text-xl font-bold text-cyan-400 mb-2">How can I support the stream?</h3>
+                    <p class="roboto text-neutral-300">You can support by donating, subscribing, following on all platforms, and engaging with the community goals. Your contributions directly impact the game's progression!</p>
+                </div>
+                <!-- FAQ Item 4 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700 hover:border-cyan-400 transition-all duration-300">
+                    <h3 class="dm-sans text-xl font-bold text-cyan-400 mb-2">When will the game end?</h3>
+                    <p class="roboto text-neutral-300">“I'm only 32... and a human life is full of surprises. So… not anytime soon.”</p>
+                </div>
+                <!-- FAQ Item 5 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700 hover:border-cyan-400 transition-all duration-300">
+                    <h3 class="dm-sans text-xl font-bold text-cyan-400 mb-2">What are livestream alerts?</h3>
+                    <p class="roboto text-neutral-300">You can trigger sounds or effects live using points (e.g., Twitch, Lumia Stream). Great for fun, chaos, or celebrations!</p>
+                </div>
+                <!-- FAQ Item 6 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700 hover:border-cyan-400 transition-all duration-300">
+                    <h3 class="dm-sans text-xl font-bold text-cyan-400 mb-2">How do I earn NUMBERS?</h3>
+                    <p class="roboto text-neutral-300">Watch, participate, financial support, creativity, or redeem engagement rewards on supported platforms.</p>
+                </div>
+                 <!-- FAQ Item 7 -->
+                 <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700 hover:border-cyan-400 transition-all duration-300">
+                    <h3 class="dm-sans text-xl font-bold text-cyan-400 mb-2">Can I really change the game?</h3>
+                    <p class="roboto text-neutral-300">Absolutely. The more you interact, engage, and participate through NUMBERS, the more influence you have over the game’s direction and outcome. Quadratic voting helps!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="missions" class="tab-content hidden">
+            <div class="space-y-6">
+                <!-- Mission 1 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700">
+                    <h3 class="dm-sans text-2xl font-bold text-center text-white mb-4">CURRENT MISSION</h3>
+                    <p class="roboto text-lg text-center text-cyan-400 font-bold">"THE RHYTHM CHALLENGE"</p>
+                    <p class="roboto text-neutral-300 mt-2 text-center">Master a difficult drum fill from a classic rock song within the next two streams. Community members can vote on which song to choose!</p>
+                </div>
+                <!-- Mission 2 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700">
+                    <h3 class="dm-sans text-2xl font-bold text-center text-white mb-4">NEXT MISSION</h3>
+                    <p class="roboto text-lg text-center text-cyan-400 font-bold">"PRACTICE MAKES PERFECT"</p>
+                    <p class="roboto text-neutral-300 mt-2 text-center">Practice rudiments for 30 minutes on stream without making a mistake. The community will be the judge!</p>
+                </div>
+                <!-- Mission 3 -->
+                <div class="bg-neutral-900 rounded-lg p-6 border border-neutral-700">
+                    <h3 class="dm-sans text-2xl font-bold text-center text-white mb-4">FUTURE MISSION</h3>
+                    <p class="roboto text-lg text-center text-cyan-400 font-bold">"THE METRONOME GAUNTLET"</p>
+                    <p class="roboto text-neutral-300 mt-2 text-center">Increase the BPM of a challenging beat by 20% in one session. Community votes will decide the starting beat and speed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
